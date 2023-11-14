@@ -34,6 +34,7 @@ export default {
         info_restaurant: Object
     },
 
+
     setup(props) {
         const changeBackground = computed(() => {
             return {

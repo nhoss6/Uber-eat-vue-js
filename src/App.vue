@@ -20,6 +20,7 @@ export default {
 
 #app {
   font-family: 'Roboto', sans-serif;
+  padding: 0px 20px;
 
 }
 </style>
