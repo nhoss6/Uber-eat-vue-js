@@ -5,7 +5,11 @@
             {{ toto }}
         </h2>
         <div class="wrapper--card">
-            <RestaurantCard v-for="(card, index) in three_restaurant" :info_restaurant="card" :key="index" />
+            <RouterLink v-for="(restaurant, index) in  three_restaurant " :key="index" :to="   : to =" { name: 'Restaurant' ,
+                params: { name: restaurant.name }}">
+
+                <RestaurantCard :info_restaurant=" card " />
+            </RouterLink>
 
 
         </div>

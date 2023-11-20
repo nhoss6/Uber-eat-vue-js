@@ -11,9 +11,9 @@ const routes = [
     path: "/",
     component: Home,
   },
-
+  // parametre
   {
-    name: "Restarant",
+    name: "Restaurant",
     path: "/restaurant/:name",
     component: Restaurant,
   },
